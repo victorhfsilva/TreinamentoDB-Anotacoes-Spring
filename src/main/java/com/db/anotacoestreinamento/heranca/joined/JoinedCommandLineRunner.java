@@ -27,6 +27,9 @@ public class JoinedCommandLineRunner implements CommandLineRunner {
         repository.save(joana);
         logger.info("Joana foi salva.");
 
+        Usuario josefina = new Usuario("Josefina", 24);
+        repository.save(josefina);
+        logger.info("Josefina foi salva.");
     }
     
 }

@@ -11,7 +11,6 @@ public class InjecaoPorConstrutorCommandLineRunner implements CommandLineRunner 
 
     private Dado dado;
 
-    @Autowired
     public InjecaoPorConstrutorCommandLineRunner(Dado dado) {
         this.dado = dado;
     }

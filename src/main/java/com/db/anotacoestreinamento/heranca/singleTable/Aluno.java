@@ -1,6 +1,5 @@
 package com.db.anotacoestreinamento.heranca.singleTable;
 
-import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 
@@ -8,7 +7,6 @@ import jakarta.persistence.Table;
 @Table(name = "alunos")
 public class Aluno extends Usuario {
     
-    @Column(name = "matricula")
     private String matricula;
 
     protected Aluno(){

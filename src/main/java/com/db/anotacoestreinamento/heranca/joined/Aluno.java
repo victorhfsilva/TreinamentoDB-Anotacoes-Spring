@@ -8,7 +8,6 @@ import jakarta.persistence.Table;
 @Table(name = "alunos")
 public class Aluno extends Usuario {
     
-    @Column(name = "matricula")
     private String matricula;
 
     protected Aluno(){
